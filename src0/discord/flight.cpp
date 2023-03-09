@@ -15,7 +15,7 @@ void show(flight air);
 int main()
 {
     flight cairoAir;
-    cairoAir.from = "Turke";
+    cairoAir.from = "cairo";
     cairoAir.to = "mka";
     cairoAir.time = 70;
 

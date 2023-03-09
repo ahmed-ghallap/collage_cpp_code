@@ -4,16 +4,16 @@ using namespace std;
 
 struct person
 {
-    string name;
-    int id;
+    string name = "no name";
+    int id = 0;
 };
 
 
 struct flight 
 {
-    string from;
-    string to;
-    int time;
+    string from = "none";
+    string to = "none";
+    int time = 0;
     person passangers[3];
 };
 

@@ -8,7 +8,7 @@ struct flight
     string from;
     string to;
     int time;
-    string passangers[3];
+    string passangers[4];
 };
 
 void show(flight air);
@@ -33,5 +33,5 @@ void show(flight air)
     cout << " time: " << air.time << endl;
 
     for (int i = 0; i < 3; i++)
-        cout << "passanger " << i + 1<< ' ' << air.passangers[i]<< endl;
+    cout << "passanger " << i + 1<< ' ' << air.passangers[i]<< endl;
 }
