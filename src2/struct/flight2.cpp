@@ -8,6 +8,7 @@ struct person
     int visa_id = -1;
 };
 
+
 struct flight 
 {
     int id = -1;
